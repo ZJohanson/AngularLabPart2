@@ -1,0 +1,66 @@
+mat-card {
+  display: flex;
+  background-color: white;
+}
+h2 {
+  margin: 5px 0px 5px;
+}
+
+input {
+  flex: 1 1 auto;
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #bbb;
+}
+
+.input-field {
+  display: flex;
+}
+
+ol {
+  padding-inline-start: 16px !important;
+  margin-block-start: 0px !important;
+  margin-block-end: 0px !important;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+.outline-button {
+  background: transparent;
+  border: 1px solid #ff69b4;
+  color: #ff69b4;
+  padding: 5px 2px 5px !important;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.outline-button:hover {
+  background: #eee;
+}
+.outline-button:focus {
+  outline: none;
+}
+
+.task-container {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.btn {
+  color: white;
+  background-color: #ff1493;
+  font-size: 16px;
+}
+
+.close-icon {
+  transform: scale(0.5);
+}

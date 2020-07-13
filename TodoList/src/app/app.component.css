@@ -1,0 +1,11 @@
+.background-style {
+  background: linear-gradient(to right, #f857a6, #ff5858);
+}
+
+app-todo {
+  max-width: 1000px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) !important;
+  border-radius: 4px;
+}

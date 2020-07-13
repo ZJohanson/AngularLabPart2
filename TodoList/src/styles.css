@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("./assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex: 1 0 auto;
+  font-family: "OpenSans-Regular";
+}
+
+app-root {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.container {
+  display: flex;
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+.scroller {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
